@@ -1,0 +1,21 @@
+body {
+    height: 500px;
+    background-image: url(./photos/barby.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+
+    h1 {
+        text-align: center;
+        color: darkmagenta;
+        
+       
+    }
+
+    section {
+        text-align: center;
+        text-align: bottom;
+        margin: 300px;
+       }
+       
