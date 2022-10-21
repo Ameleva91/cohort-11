@@ -5,12 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Begin the game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Choose You barby</H1>
+        <h1>Let's begin the game!</h1>
     </header>
+<div class="container">
+    <div class="item">
+        <h1>Player Settings</h1>
+        <div id="existing-user">
+          <p>Welcome <span>Alina</span></p>
+          <button class="start-btn">Start/Restart</button>
+          <button class="change-player-btn">Change player</button>
+        </div>
 
+        <div id="new-user">
+          <p>Please register your name</p>
+          <form>
+            <input type="text" placeholder="Enter your name" id="player" />
+            <button type="submit" id="register-btn">Register</button>
+          </form>
+        </div>
+      </div>
+
+</div>
    
 
 
