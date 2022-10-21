@@ -3,8 +3,10 @@ body {
     
 }
 
+
 h1,h2,h3 {
     color:hotpink;
+    text-align: center;
 }
 
 p {
@@ -21,5 +23,18 @@ a {
     text-align:center;
     text-decoration: none;
     
+}
+
+#new-user,
+#existing-user {
+  background-color: none;
+  border-radius: 10px;
+  border: none;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#player{
+  max-width:120px;
 }
 
